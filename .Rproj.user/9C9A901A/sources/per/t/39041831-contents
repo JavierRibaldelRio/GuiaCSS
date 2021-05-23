@@ -1,0 +1,98 @@
+body {
+    font-family: Helvetica;
+    font-size: 12pt;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.azul {
+    font-size: 12pt;
+    color: blue;
+}
+
+/* a {
+    color: #ffffff;
+} */
+
+/* etiqueta*/
+
+p {
+    color: blanchedalmond
+}
+
+h1 {
+    font-size: 24pt;
+    color: #22b7eb;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 20pt;
+    color: #22b7eb;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 18pt;
+    color: #22b7eb;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 16pt;
+    color: #22b7eb;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+/* id */
+
+#TOC {
+    font-size: 10pt;
+    background-color: #22b7eb;
+    color: black;
+}
+
+/* clase */
+
+.peque {
+    font-size: 10pt;
+    color: blue;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.ejemplo {
+    color: #22b7eb;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.boton {
+    background-color: #22b7eb;
+    color: #ffffff;
+    border: 5 solid;
+    border-color: red;
+    text-align: center;
+    border-radius: .25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.Tablon_Botones {
+    text-align: center;
+}
+
+.Cabeceras_Centradas {
+    text-align: center;
+}
