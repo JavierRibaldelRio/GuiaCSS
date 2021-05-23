@@ -19,27 +19,6 @@ output:
 ---
 <!--Necesario-->
 ```{r setup, include=FALSE} 
-knitr::opts_chunk$set(echo = TRUE)---
-title: "Guia CSS"
-author: "Javier Ribal del Río"
-date: "23/5/2021"
-output:
-  html_document:
-    css: estilos.css
-    toc: yes
-    toc_float: yes
-    toc_depth: 4
-    number_sections: yes
-    fig_width: 5
-    fig_height: 4
-    fig_caption: yes
-    anchor_sections: false
-  pdf_document:
-    toc: yes
-    toc_depth: '4'
----
-<!--Necesario-->
-```{r setup, include=FALSE} 
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
