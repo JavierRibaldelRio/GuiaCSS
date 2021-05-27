@@ -304,6 +304,80 @@ console.log(&quot;Hola mundo\n&quot;);</code></pre>
 </div>
 </div>
 </div>
+<div id="funcionamiento" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> FUNCIONAMIENTO</h1>
+<p>Antes de explicar el funcionamiento de Css es necesario conocer un minimo de conocimientos de html los cuales sera introsucidos a medida que avance la explicación de css.</p>
+<p>Los elementos hacen refernecia a todo a lo que vamos a dar formatos, pueden ser de tres tipos: etiquetas, classes e Ides.ç</p>
+<div id="etiquetas" class="section level2" number="2.1">
+<h2 number="2.1"><span class="header-section-number">2.1</span> Etiquetas</h2>
+<p>En html los componentes son introducidos con etiquetas un ejemplo es la etiqueta <em>table</em></p>
+<pre class="html"><code>&lt;table&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;
+      NOMBRE
+    &lt;/td&gt;
+
+    &lt;td&gt;
+      TELEFONO
+    &lt;/td&gt;
+
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      Pepe
+    &lt;/td&gt;
+
+    &lt;td&gt;
+    0009000
+    &lt;/td&gt;
+
+  &lt;/tr&gt;
+
+&lt;/table&gt;
+</code></pre>
+<p>Las etiquetas son cualquier cosa entre los simbolos mayor-que y menor-que (&lt;,&gt;). Cada etiqueta crea un componente distinto, en el caso la etiqueta “table” crea la tabla, la etiqueta tr dice que se creé una nueva fila en la tabla y las etiquetas td crean una nueva celda dentro de la fila.</p>
+<p>El resultado de este código seria el siguiente:</p>
+<table>
+<tr>
+<td>
+NOMBRE
+</td>
+<td>
+TELEFONO
+</td>
+</tr>
+<tr>
+<td>
+Pepe Cabrera Perez
+</td>
+<td>
+0009000
+</td>
+</tr>
+</table>
+<p>Como se puede ver en la tabla anterior, la tabla no tiene ni bordes, ni margenes ni nada por el estilo. Esto ocurre porque no hay un archivo css que este indicando el formato que a de tener la tabla, para definir el formato de la tabla se haria de la siguiente forma.</p>
+<pre class="css"><code>
+table{
+
+border: solid black 2px;
+
+}
+</code></pre>
+<p>Esto hace que todas las etiquetas table, es decir todas las tablas insertadas en la web tendran este formato.</p>
+<div id="etiquetas-más-típicas-de-html" class="section level3" number="2.1.1">
+<h3 number="2.1.1"><span class="header-section-number">2.1.1</span> Etiquetas Más Típicas de html</h3>
+<p>Todas estas tienen que ir entre mayor y menor que:</p>
+<ul>
+<li><strong>p</strong>: Crea un parrafo</li>
+<li><strong>table</strong>: Crea una tabla (*tbody)
+<ul>
+<li><strong>tr</strong>: Crea una fila en una tabla</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
 
 
 

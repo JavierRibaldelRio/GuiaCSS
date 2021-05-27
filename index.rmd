@@ -95,6 +95,90 @@ console.log("Hola mundo\n");
 - ";" Los punto-coma indican que se cambia de caracteristica de formato
 - "}" Indica que se acaba el formato 
 
+# FUNCIONAMIENTO
 
+Antes de explicar el funcionamiento de Css es necesario conocer un minimo de conocimientos de html los cuales sera introsucidos a medida que avance la explicación de css.
 
+Los elementos hacen refernecia a todo a lo que vamos a dar formatos, pueden ser de tres tipos: etiquetas, classes e Ides.ç
 
+## Etiquetas
+
+En html los componentes son introducidos con etiquetas un ejemplo es la etiqueta *table*
+
+```html
+<table>
+
+  <tr>
+    <td>
+      NOMBRE
+    </td>
+
+    <td>
+      TELEFONO
+    </td>
+
+  </tr>
+  <tr>
+    <td>
+      Pepe
+    </td>
+
+    <td>
+    0009000
+    </td>
+
+  </tr>
+
+</table>
+
+```
+Las etiquetas son cualquier cosa entre los simbolos mayor-que y menor-que (<,>). Cada etiqueta crea un componente distinto, en el caso la etiqueta "table" crea la tabla, la etiqueta tr dice que se creé una nueva fila en la tabla y las etiquetas td crean una nueva celda dentro de la fila.
+
+El resultado de este código seria el siguiente:
+
+<table>
+
+  <tr>
+    <td>
+      NOMBRE
+    </td>
+
+    <td>
+      TELEFONO
+    </td>
+
+  </tr>
+  <tr>
+    <td>
+      Pepe Cabrera Perez
+    </td>
+
+    <td>
+    0009000
+    </td>
+
+  </tr>
+
+</table>
+
+Como se puede ver en la tabla anterior, la tabla no tiene ni bordes, ni margenes ni nada por el estilo. Esto ocurre porque no hay un archivo css que este indicando el formato que a de tener la tabla, para definir el formato de la tabla se haria de la siguiente forma.
+
+```css
+
+table{
+
+border: solid black 2px;
+
+}
+
+```
+
+Esto hace que todas las etiquetas table, es decir todas las tablas insertadas en la web tendran este formato.
+
+### Etiquetas Más Típicas de html
+
+Todas estas tienen que ir entre mayor y menor que:
+
+- **p**: Crea un parrafo
+- **table**: Crea una tabla (*tbody)
+  - **tr**: Crea una fila en una tabla
