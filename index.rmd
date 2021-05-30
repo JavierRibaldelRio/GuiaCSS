@@ -179,6 +179,54 @@ Esto hace que todas las etiquetas table, es decir todas las tablas insertadas en
 
 Todas estas tienen que ir entre mayor y menor que:
 
-- **p**: Crea un parrafo
-- **table**: Crea una tabla (*tbody)
-  - **tr**: Crea una fila en una tabla
+<ul>
+
+<li>**table**: Crea una tabla (*tbody)</li>
+<li>**tr**: Crea una fila en una tabla</li>
+<li>**td**: Crea una celda dentro de una fila</li>
+<li>**tr**: Crea una celda con formato de titulo dentro de una fila</li>
+<li>**a**: Crea un hípervinculo</li>
+<li>**div**: Agrupa elementos</li>
+<li>**button**: crea un boton</li>
+<li>**body**: Agrupa todo el contenido de la web</li>
+<li>**h#**: Los h son titulos, depende de el numero que pongas despues de la h sera la magnitud  del titulo, para hacer un titulo de magnitud 1 se pone h1 y para magnitud 2 h2...</li>
+<li>**br**: Hace un salto de linea</li>
+<li>**hr**: Hace una línea</li>
+<li>**img**: Crea una imagen</li>
+
+</ul>
+
+## Clases
+ 
+Las clases te permiten añadir formatos a determinadas etiqueta, primero has de asignar formato a la clase y después has de añadir a la etiqueta que deseas que tenga el formato de la clase, para muestra un botón:
+
+```css
+.Boton_Fin_Juego{
+
+font-family: 23px;
+
+}
+
+```
+
+Este codigo hace que todas las etiquetas que tengan asignadas la clase "Boton_Fin_Juego" tengan las caracteristicas de esta clase. <br>
+
+Es importante piner el punto en la hoja de css para que el interprete lo interprete como una clase en vez de una etiqueta.
+
+<br>
+
+Puedes asignar a varias etiquetas la misma clase.
+
+## Id
+
+Una id es exactamente igual que una clase, la unica diferencia es que solo se puede asignar a una etiquetas
+
+```css
+#Afirmacion{
+
+font-family: "Arial";
+
+}
+```
+
+Aquí en vez de poner un punto hay que poner un hashtag/amohadilla/bemol.
