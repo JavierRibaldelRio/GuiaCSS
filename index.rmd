@@ -230,3 +230,34 @@ font-family: "Arial";
 ```
 
 Aquí en vez de poner un punto hay que poner un hashtag/amohadilla/bemol.
+
+# Atributos
+
+  A lo largo de los puntos 1 y 2 hemos estado viendo caracteristicas de CSS y su funcionamiento. Como seha explicado en el punto 2 hay unas propiedades o atributos como "margin, font-family...". En este punto explicaremos algunos de los atributos más importantes del css. Pero antes hay que explicar una cosa básica sobre ciertos atributos
+  
+## "Regla del Trouble"
+
+  En css hay ciertos atributos que afectan a más de una característica de formato.
+  
+  ```css
+  
+  #ejemlo{
+  
+  margin: 20px 5px 3px 6px;
+        /*t     r   b   l*/
+  }
+  
+  
+  ```
+  
+  En este ejemplo al atributo de margin se le asignan 4 valores (20px, 5px, 3px, 6px) esto lo que hace que tenga un margen de 20 pixeles por arriba, uno de 5 por la derecha, uno de 3 por debajo y uno de 6 por la izquierda. <br>
+  
+  Esto es por la "Regla del Trouble", esto se hace porque se interpreta que el primero se utiliza para arriba para el de arriba, el segundo para el de la derecha...<br>
+  
+  De aqui viene el trbl (top-right-bottom-left | arriba-derecha-abajo-izquierda), como "trbl" es inpronunciable tanto para lengua inglesa como lengua castellana se utiliza trouble ya que tiene las consonantes coinciden.En ingés Trouble significa peligro. Solo algunas propiedades utilizan la "Regla del Trouble", las más típicas son el margin y el padding (les dedicaremos un apartado más adelante).
+  
+  El tbrl tambien se aplica para las esquinas, en esta web esta explicado más detallado pero, son exscepcions y cosas poco comune sen css: https://developer.mozilla.org/es/docs/Web/CSS/Shorthand_properties
+  
+  
+  
+  
