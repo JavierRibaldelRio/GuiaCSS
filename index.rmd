@@ -99,7 +99,7 @@ console.log("Hola mundo\n");
 
 Antes de explicar el funcionamiento de Css es necesario conocer un minimo de conocimientos de html los cuales sera introsucidos a medida que avance la explicación de css.
 
-Los elementos hacen refernecia a todo a lo que vamos a dar formatos, pueden ser de tres tipos: etiquetas, classes e Ides.ç
+Los elementos hacen refernecia a todo a lo que vamos a dar formatos, pueden ser de tres tipos: etiquetas, classes e Ides.
 
 ## Etiquetas
 
@@ -184,7 +184,7 @@ Todas estas tienen que ir entre mayor y menor que:
 <li>**table**: Crea una tabla (*tbody)</li>
 <li>**tr**: Crea una fila en una tabla</li>
 <li>**td**: Crea una celda dentro de una fila</li>
-<li>**tr**: Crea una celda con formato de titulo dentro de una fila</li>
+<li>**th**: Crea una celda con formato de titulo dentro de una fila</li>
 <li>**a**: Crea un hípervinculo</li>
 <li>**div**: Agrupa elementos</li>
 <li>**button**: crea un boton</li>
@@ -211,7 +211,7 @@ font-family: 23px;
 
 Este codigo hace que todas las etiquetas que tengan asignadas la clase "Boton_Fin_Juego" tengan las caracteristicas de esta clase. <br>
 
-Es importante piner el punto en la hoja de css para que el interprete lo interprete como una clase en vez de una etiqueta.
+Es importante poner el punto en la hoja de css para que el interprete lo interprete como una clase en vez de una etiqueta.
 
 <br>
 
@@ -231,7 +231,7 @@ font-family: "Arial";
 
 Aquí en vez de poner un punto hay que poner un hashtag/amohadilla/bemol.
 
-# Atributos
+# ATRIBUTOS
 
   A lo largo de los puntos 1 y 2 hemos estado viendo caracteristicas de CSS y su funcionamiento. Como seha explicado en el punto 2 hay unas propiedades o atributos como "margin, font-family...". En este punto explicaremos algunos de los atributos más importantes del css. Pero antes hay que explicar una cosa básica sobre ciertos atributos
   
@@ -256,7 +256,60 @@ Aquí en vez de poner un punto hay que poner un hashtag/amohadilla/bemol.
   
   De aqui viene el trbl (top-right-bottom-left | arriba-derecha-abajo-izquierda), como "trbl" es inpronunciable tanto para lengua inglesa como lengua castellana se utiliza trouble ya que tiene las consonantes coinciden.En ingés Trouble significa peligro. Solo algunas propiedades utilizan la "Regla del Trouble", las más típicas son el margin y el padding (les dedicaremos un apartado más adelante).
   
-  El tbrl tambien se aplica para las esquinas, en esta web esta explicado más detallado pero, son exscepcions y cosas poco comune sen css: https://developer.mozilla.org/es/docs/Web/CSS/Shorthand_properties
+  El tbrl también se aplica para las esquinas, en esta web esta explicado más detallado pero, son excepciones  y cosas poco comune sen css: https://developer.mozilla.org/es/docs/Web/CSS/Shorthand_properties
+  
+## Atributos exclusivos
+
+  En css puedes ponerle atributo a todo incluso a una imagen le puedes poner de formato que quieres que el tamaño de la letra sea de 5px. Esto no tiene sentido ya que las fotografías no tienen texto, en css le pudes asignar a cualquier etiqueta, id o clases cualquier atributo sin importar si tenga sentido o no. Si no tiene sentido el interprete lo ignora (pero lo marca como aviso).
+  
+## Dar valor a un atributo
+
+### Más de un valor
+  Hay atributos que requieren más de un valor. Un ejemplo es el caso de la propiedad: "border"
+  
+  ```css
+  
+  #Ejemplo{
+    
+    border: solid black 5px;
+    
+  }
+  
+  
+  ```
+  En este caso has de poner el tipo de borde, en este caso pones solid, que quiere decir que es solido (que se ve) después black (el color del borde) y 5px (tamaño del borde)
+  
+
+## Atributos más tipicos
+
+Hay muchos atributos aquí vamos ha explicar los más tipicos y poner unos ejemplos
+
+<iframe width="685" height="372" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=AA3205253B308FF7%21136&authkey=%21AIcXG03ur-nRoKw&em=2&Item='Hoja1'!A1%3AC12&wdHideGridlines=True&wdInConfigurator=True"></iframe>
+
+
+# Ejemplos de Css
+
+Aquí dejo ejemplos de archivos css, recomiendo mirar 1 o 2, personalmente recomiendo el 1º.
+
+<ul>
+
+<ol>Juego de Formulación: https://github.com/JavierRibaldelRio/Formulacion/blob/main/Hojas_de_Estilo</ol>
+
+<ol> Sevilla 2032: https://github.com/JavierRibaldelRio/Sevilla2032/blob/main/HojasEstilo/principal.css </ol>
+
+<ol> Som Llingüistes: https://github.com/JavierRibaldelRio/SomLlinguistes/blob/main/estilos.css</ol>
+
+<ol> "Esta web": https://github.com/JavierRibaldelRio/GuiaCSS/blob/main/estilos.css</ol>
+
+
+
+
+</ul>
+
+
+
+  
+  
   
   
   
